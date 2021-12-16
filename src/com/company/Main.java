@@ -8,9 +8,9 @@ public class Main {
         System.out.println("Digite aqui seu numero: ");
         Scanner scan;
         scan = new Scanner(System.in);
-        int n = scan.nextInt();
+        int numeroInteiro = scan.nextInt();
         int numeroPar = 0;
-        for (int i = 0; i < n; i += 1) {
+        for (int i = 0; i < numeroInteiro; i += 1) {
             System.out.println(numeroPar);
             numeroPar += 2;
         }
