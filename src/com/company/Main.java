@@ -24,8 +24,19 @@ public class Main {
             System.out.println(multiplos);
             multiplos += m;
         }
+        System.out.println("digite um numero primo");
+            int numeroPrimo = scan.nextInt();
+            boolean ehPrimo = true;
+
+            for (int i = 2; i < numeroPrimo; i+=1){
+                if(numeroPrim % i == 0){
+                System.out.println(numeroPrimo + "não é primo");
+                ehPrimo = false;
+                break;
+            }
+        }
+        if(ehPrimo){
+            System.out.println(numeroPrimo + "é primo");
+    }
     }
 }
-
-
-  
