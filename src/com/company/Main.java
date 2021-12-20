@@ -18,7 +18,7 @@ public class Main {
             System.out.println(numeroPar);
             numeroPar += 2;
         }
-        
+
         System.out.println("Digite a quantidade de numeros a ser mostrada");
         int numerosMostrados = scan.nextInt();
         System.out.println("Digite um multiplo qualquer");
@@ -79,7 +79,7 @@ public class Main {
 
         int contador = 0;
         for (char c: charArr){
-           int n = Integer.parseInt(String.valueOf(c));
+            int n = Integer.parseInt(String.valueOf(c));
             if (n == algar) {
                 contador++;
             }
