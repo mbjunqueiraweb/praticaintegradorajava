@@ -1,5 +1,4 @@
 package com.company;
-import java.util.Arrays;
 import java.util.Scanner;
 // Pratica integradora grupo 11
 
@@ -8,11 +7,11 @@ public class Main {
     public static void main(String[] args) {
         Scanner scan;
 
-        //System.out.println("Digite aqui seu numero: ");
+        System.out.println("Digite aqui seu numero: ");
 
 
         scan = new Scanner(System.in);
-        /**
+
         int numeroInteiro = scan.nextInt();
         int numeroPar = 0;
         for (int i = 0; i < numeroInteiro; i += 1) {
@@ -41,20 +40,19 @@ public class Main {
         }
 
         System.out.println("Digite um número:");
-        int m = scan.nextInt();
+        m = scan.nextInt();
 
         for(int i = 2;i <= m; i+=1){
             if(ehPrimo(i)){
                 System.out.println(i + " é primo");
             }
         }
-    */
 
         System.out.println("Digite n:");
         int n = scan.nextInt();
 
         System.out.println("Digite m:");
-        int m = scan.nextInt();
+        m = scan.nextInt();
 
         System.out.println("Digite d:");
         int d = scan.nextInt();
@@ -63,7 +61,7 @@ public class Main {
         int testando = 0;
 
         while (countN < n){
-            //System.out.println(ocorrencias(testando, d));
+
             if(ocorrencias(testando, d) >= m){
                 System.out.println(testando);
                 countN += 1;
@@ -98,10 +96,4 @@ public class Main {
         }
         return true;
     }
-
-
-
 }
-
-
-  
