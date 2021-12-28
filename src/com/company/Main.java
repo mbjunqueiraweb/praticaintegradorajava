@@ -25,11 +25,11 @@ public class Main {
             multiplos += m;
         }
         System.out.println("digite um numero primo");
-        int numeroPrimo = scan.nextInt();
-        boolean ehPrimo = true;
+            int numeroPrimo = scan.nextInt();
+            boolean ehPrimo = true;
 
-        for (int i = 2; i < numeroPrimo; i+=1){
-            if(numeroPrimo % i == 0){
+            for (int i = 2; i < numeroPrimo; i+=1){
+                if(numeroPrimo % i == 0){
                 System.out.println(numeroPrimo + "não é primo");
                 ehPrimo = false;
                 break;
@@ -37,9 +37,17 @@ public class Main {
         }
         if(ehPrimo){
             System.out.println(numeroPrimo + "é primo");
-        }
+
     }
+
 }
+
+
+
+
+
+}
+
 
 
   
